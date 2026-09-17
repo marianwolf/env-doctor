@@ -1,0 +1,8 @@
+.env
+
+# Node
+node_modules/
+
+# AI
+.kilo
+openwiki/
