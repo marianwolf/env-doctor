@@ -1,6 +1,9 @@
 {
   "name": "env-doctor",
-  "author": {"name": "Marian Wolf", "email": "marian.wolf2008@gmail.com"},
+  "author": {
+    "name": "Marian Wolf",
+    "email": "marian.wolf2008@gmail.com"
+  },
   "version": "1.0.0",
   "description": "Validiert .env Dateien gegen eine Vorlage inklusive Typ-Prüfung",
   "main": "src/index.js",
@@ -11,5 +14,11 @@
   "scripts": {
     "test": "node bin/cli.js"
   },
-  "license": "GPL-3.0-only"
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "openwiki": "^0.5.2"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true
+  }
 }
