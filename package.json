@@ -1,0 +1,15 @@
+{
+  "name": "env-doctor",
+  "author": {"name": "Marian Wolf", "email": "marian.wolf2008@gmail.com"},
+  "version": "1.0.0",
+  "description": "Validiert .env Dateien gegen eine Vorlage inklusive Typ-Prüfung",
+  "main": "src/index.js",
+  "bin": {
+    "env-doctor": "bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node bin/cli.js"
+  },
+  "license": "GPL-3.0-only"
+}
