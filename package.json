@@ -12,10 +12,12 @@
   },
   "type": "module",
   "scripts": {
-    "test": "node bin/cli.js"
+    "test": "node --test"
   },
   "license": "GPL-3.0-only",
   "dependencies": {
+    "dotenv": "^17.4.2",
+    "dotenv-expand": "^1000.0.0",
     "openwiki": "^0.5.2"
   },
   "allowScripts": {
